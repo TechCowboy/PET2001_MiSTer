@@ -1,3 +1,4 @@
+set_global_assignment -name QIP_FILE rtl/ieee_drive/ieee_drive.qip
 set_global_assignment -name QIP_FILE rtl/t65/t65.qip
 set_global_assignment -name VERILOG_FILE rtl/via6522.v
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/ddram.sv
@@ -9,4 +10,3 @@ set_global_assignment -name SYSTEMVERILOG_FILE rtl/pet2001io.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/pet2001hw.sv
 set_global_assignment -name SYSTEMVERILOG_FILE rtl/keyboard.sv
 set_global_assignment -name SYSTEMVERILOG_FILE PET2001.sv
-set_global_assignment -name QIP_FILE rtl/ieee_drive/ieee_drive.qip
